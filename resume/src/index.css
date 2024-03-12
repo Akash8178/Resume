@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* Main heading */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Row layout */
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Column styles */
+.col-md-4 {
+  width: 30%; /* Adjust the width of columns as needed */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Experience, Education, Skills headings */
+.col-md-4 h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Experience, Education, Skills content */
+.col-md-4 p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Skills - list style */
+.col-md-4 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Skills - list items */
+.col-md-4 ul li {
+  margin-bottom: 10px;
+}
+
+/* Skills - skill levels */
+.col-md-4 ul li span {
+  display: inline-block;
+  width: 100px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .col-md-4 {
+    width: 100%;
+  }
+}
